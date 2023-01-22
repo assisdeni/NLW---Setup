@@ -34,7 +34,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 O Habits é um app para ajudar a rastrear os hábitos.
 
-
+- [Visite este projeto online](https://assisdeni.github.io/NLW---Setup/)
 
 ## 🔖 Layout
 
