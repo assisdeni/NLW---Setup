@@ -7,16 +7,15 @@
 body {
   background-color: #09090a;
   color: white;
-
   height: 100vh;
 }
 
 header {
   display: flex;
   align-items: center;
+  background-color: #09090a;
   justify-content: space-between;
   padding: 48px;
-
   position: fixed;
   width: 100%;
 }
@@ -27,11 +26,9 @@ button {
   border: 1px solid #8b5cf6;
   background-color: transparent;
   color: white;
-
   display: flex;
   align-items: center;
   gap: 12px;
-
   font-family: "Inter";
   font-weight: 600;
   font-size: 16px;
@@ -54,9 +51,7 @@ button {
 .habit {
   width: 64px;
   height: 64px;
-
   font-size: 32px;
-
   display: flex;
   align-items: center;
   justify-content: center;
@@ -75,27 +70,22 @@ button {
 }
 
 .day div {
+  color: #a1a1aa;
   margin-bottom: 8px;
-
   font-family: "Roboto Mono";
   font-size: 20px;
   line-height: 125%;
-
-  color: #a1a1aa;
-
   text-align: center;
 }
 
 input {
   appearance: none;
-  -webkit-appearance: none;
-  width: 64px;
-  height: 64px;
-
+  background: #18181b;
   border: 2px solid #27272a;
   border-radius: 8px;
-
-  background: #18181b;
+  height: 64px;
+  width: 64px;
+  -webkit-appearance: none;
 }
 
 /*pseudo-selector*/
